@@ -30,8 +30,3 @@ body:
           required: false
         - label: Posted on social
           required: false
-  - type: markdown
-    attributes:
-      value: >-
-        This template was generated with [Issue Forms
-        Creator](https://issue-forms-creator.netlify.app)
