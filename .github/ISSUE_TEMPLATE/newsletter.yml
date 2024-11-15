@@ -1,0 +1,37 @@
+name: Newsletter
+description: Creation of the newsletter
+title: Newsletter
+labels:
+  - newsletter
+assignees:
+  - sashapais
+  - joe-rlo
+  - PiVortex
+body:
+  - type: input
+    attributes:
+      label: Version
+      description: The edition number
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: Newsletter content
+  - type: checkboxes
+    attributes:
+      label: Tasks
+      description: Considered complete when tasks are done
+      options:
+        - label: Content Ready
+          required: false
+        - label: Template Ready
+          required: false
+        - label: Email Sent
+          required: false
+        - label: Posted on social
+          required: false
+  - type: markdown
+    attributes:
+      value: >-
+        This template was generated with [Issue Forms
+        Creator](https://issue-forms-creator.netlify.app)
