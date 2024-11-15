@@ -1,0 +1,55 @@
+name: Content
+description: Template for content creation
+title: '[Content]: '
+body:
+  - type: checkboxes
+    attributes:
+      label: Content Type
+      options:
+        - label: Blog
+          required: false
+        - label: Tutorial (Docs)
+          required: false
+        - label: Docs
+          required: false
+        - label: Livestream
+          required: false
+        - label: Video
+          required: false
+        - label: Other
+          required: false
+  - type: input
+    attributes:
+      label: Audience
+      description: >-
+        Specify the intended audience (e.g., developers, engineers, tech
+        enthusiasts).
+  - type: textarea
+    attributes:
+      label: Goals/Objectives
+      description: >-
+        What are the primary goals of this content? (e.g., educate about a new
+        feature, provide best practices, promote a product)
+  - type: textarea
+    attributes:
+      label: Required Assets (listed)
+  - type: dropdown
+    attributes:
+      label: Assets Required
+      options:
+        - 'Yes'
+        - 'No'
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Deadline
+  - type: checkboxes
+    attributes:
+      label: Distribution Tasks
+      description: Schedule posts across platforms X, LinkedIn, Reddit, Hacker News, etc
+      options:
+        - label: Blog (if needed)
+          required: false
+        - label: 'Social postings '
+          required: false
