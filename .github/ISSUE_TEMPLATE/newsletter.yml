@@ -28,5 +28,15 @@ body:
           required: false
         - label: Email Sent
           required: false
-        - label: Posted on social
+        - label: Posted on Telegram
+          required: false
+        - label: Posted on Discord
+          required: false
+        - label: Posted on Twitter/X
+          required: false
+        - label: Posted on Reddit
+          required: false
+        - label: Posted on LinkedIn
+          required: false
+        - label: Posted on Instagram
           required: false
