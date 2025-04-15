@@ -4,9 +4,7 @@ title: Newsletter
 labels:
   - newsletter
 assignees:
-  - sashapais
   - joe-rlo
-  - flmel
 body:
   - type: input
     attributes:
